@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition forZWS_C_CONNECTION'
+define service ZWS_CONNECTION {
+  expose ZWS_C_CONNECTION as Connection;
+}
