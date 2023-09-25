@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for ZC_WS1ACONN'
+define service ZUI_WS1ACONN_O4 {
+  expose ZC_WS1ACONN;
+}

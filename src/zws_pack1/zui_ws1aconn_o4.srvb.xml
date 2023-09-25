@@ -4,9 +4,9 @@
   <asx:values>
    <SRVB>
     <METADATA>
-     <NAME>ZWS_UI_CONNECTION_04</NAME>
+     <NAME>ZUI_WS1ACONN_O4</NAME>
      <TYPE>SRVB/SVB</TYPE>
-     <DESCRIPTION>##GENERATED #</DESCRIPTION>
+     <DESCRIPTION>##GENERATED ZWS1ACONN</DESCRIPTION>
      <LANGUAGE>EN</LANGUAGE>
      <LINKS>
       <item>
@@ -15,7 +15,7 @@
        <TITLE>Historic versions</TITLE>
       </item>
       <item>
-       <HREF>/sap/bc/adt/businessservices/odatav4/ZWS_UI_CONNECTION_04</HREF>
+       <HREF>/sap/bc/adt/businessservices/odatav4/ZUI_WS1ACONN_O4</HREF>
        <REL>http://www.sap.com/categories/odatav4</REL>
        <TYPE>application/vnd.sap.adt.businessservices.odatav4.v1+xml</TYPE>
        <TITLE>ODATAV4</TITLE>
@@ -44,21 +44,21 @@
     </METADATA>
     <CONTENT>
      <BIND_TYPE_IMPL>
-      <NAME>ZWS_UI_CONNECTION_04</NAME>
+      <NAME>ZUI_WS1ACONN_O4</NAME>
      </BIND_TYPE_IMPL>
      <BIND_TYPE>ODATA</BIND_TYPE>
      <BIND_TYPE_VERSION>V4</BIND_TYPE_VERSION>
      <SERVICES>
       <item>
-       <SERVICE_NAME>ZWS_CONNECTION</SERVICE_NAME>
+       <SERVICE_NAME>ZUI_WS1ACONN_O4</SERVICE_NAME>
        <SERVICE_CONTENT>
         <item>
          <SERVICE_VERSION>0001</SERVICE_VERSION>
          <RELEASE_STATE>NOT_RELEASED</RELEASE_STATE>
          <SRVD_REF>
-          <URI>/sap/bc/adt/ddic/srvd/sources/zws_connection</URI>
+          <URI>/sap/bc/adt/ddic/srvd/sources/zui_ws1aconn_o4</URI>
           <TYPE>SRVD/SRV</TYPE>
-          <NAME>ZWS_CONNECTION</NAME>
+          <NAME>ZUI_WS1ACONN_O4</NAME>
          </SRVD_REF>
          <BIND_TYPE_DATA>
           <CONTENT>
@@ -70,6 +70,8 @@
       </item>
      </SERVICES>
     </CONTENT>
+    <CONTRACT>C1</CONTRACT>
+    <RELEASE_SUPPORTED>true</RELEASE_SUPPORTED>
     <PUBLISHED>true</PUBLISHED>
     <BINDING_CREATED>true</BINDING_CREATED>
    </SRVB>
